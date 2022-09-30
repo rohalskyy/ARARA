@@ -1,7 +1,6 @@
-project_id : 307981
-base_path : .
-preserve_hierarchy: false
-
+project_id: 307981
+base_path: .
+preserve_hierarchy: 
 files:
   - source: /translations/locales/en.json
     translation: /translations/locales/%locale_with_underscore%.json
