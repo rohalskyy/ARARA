@@ -1,12 +1,24 @@
-project_id: 535610
-base_path: .
+"project_id": "535610"
+"base_path": "."
 "preserve_hierarchy": false
-files:
-  - source: /translations/locales/en.json
-    translation: /translations/locales/%locale_with_underscore%.json
-  - source: /ios/swc/Base.lproj/*.*
-    ignore:
-      - /ios/swc/Base.lproj/*.xib
-    translation: /ios/swc/%osx_code%/%original_file_name%
-  - source: /android/app/src/main/res/values/strings.xml
-    translation: /android/app/src/main/res/values-%android_code%/%original_file_name%
+
+files: [
+  {
+    "source" : "/translations/locales/en.json",
+    "translation" : "/translations/locales/%locale_with_underscore%.json",
+  },
+  {
+    "source" : "/ios/swc/Base.lproj/*.*",
+    "translation": "/ios/swc/%osx_code%/%original_file_name%",
+    "ignore" : [
+        "/ios/swc/Base.lproj/*.xib"
+    ],
+  },
+  {
+    "source" : "/android/app/src/main/res/values/strings.xml",
+    "translation" : "/android/app/src/main/res/values-%android_code%/%original_file_name%",
+    "translation_replace" : {
+      "values-es-r419": "values-b+es+419"
+    },
+  }
+]
