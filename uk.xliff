@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="15056" original="/main/Strings" source-language="en" target-language="uk" datatype="plaintext" project-id="625050" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="1541510" resname="1" size-unit="char" maxwidth="40">
+        <source>String for translation 1</source>
+        <target state="needs-translation">String for translation 1</target>
+        <context-group purpose="information">
+          <context context-type="source">1
+Context for string 1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1541512" resname="2" size-unit="char" maxwidth="40">
+        <source>String for translation 2</source>
+        <target state="needs-translation">String for translation 2</target>
+        <context-group purpose="information">
+          <context context-type="source">2
+Context for string 2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1541514" resname="3" size-unit="char" maxwidth="40">
+        <source>String for translation 3</source>
+        <target state="needs-translation">String for translation 3</target>
+        <context-group purpose="information">
+          <context context-type="source">3
+Context for string 3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1541516" resname="4" size-unit="char" maxwidth="40">
+        <source>String for translation 4</source>
+        <target state="needs-translation">String for translation 4</target>
+        <context-group purpose="information">
+          <context context-type="source">4
+Context for string 4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1541518" resname="5" size-unit="char" maxwidth="40">
+        <source>String for translation 5</source>
+        <target state="needs-translation">String for translation 5</target>
+        <context-group purpose="information">
+          <context context-type="source">5
+Context for string 5</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+  <file id="15060" original="/second/Strings" source-language="en" target-language="uk" datatype="plaintext" project-id="625050" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body/>
+  </file>
+</xliff>
